@@ -1,0 +1,8 @@
+Disini karena diberikan jar connector versi 5, saya mendownload versi terbaru yakni jar connector versi 8. Tapi di class Connect, sudah saya berikan code untuk keduanya, tinggal disesuaikan saja di bagian
+ 	Class.forName("com.mysql.cj.jdbc.Driver");
+
+Jika memakai versi 5, maka menjadi "com.mysql.cj.jdbc.Driver"
+
+Jika memakai versi 8, maka menjadi "com.mysql.jdbc.Driver"
+
+Dan untuk JavaFX nya memakai javafx-sdk-16
